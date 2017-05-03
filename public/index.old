@@ -1,0 +1,13 @@
+<?php
+include_once('../etc/config.php');
+echo "<h1> Hey everyone!</h1>";
+$result = $db->get_array("SELECT * FROM user");
+var_dump($result);
+?>
+
+Here is where class files go
+/var/www/src/lib
+<br>
+Here is where the front end files go
+/var/www/src/public
+
